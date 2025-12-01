@@ -37,6 +37,7 @@
             // glControlSlots
             // 
             this.glControlSlots.BackColor = System.Drawing.Color.Black;
+            this.glControlSlots.ForeColor = System.Drawing.SystemColors.ControlText;
             this.glControlSlots.Location = new System.Drawing.Point(97, 12);
             this.glControlSlots.Name = "glControlSlots";
             this.glControlSlots.Size = new System.Drawing.Size(643, 219);

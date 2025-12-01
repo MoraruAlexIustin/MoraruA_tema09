@@ -186,7 +186,7 @@ namespace ConsoleApp1
             float deltaTime = (float)elapsed.TotalSeconds;
             _lastUpdateTime = DateTime.Now;
 
-            float deltaRotation = _SpinSpeed * deltaTime;
+            float deltaRotation = deltaTime / _timePerCycle;
 
             // Logica de Oprire
             if (_remainingCycles <= 0)
@@ -213,7 +213,10 @@ namespace ConsoleApp1
                 {
                     _rotationOffset -= 1.0f;
                     _remainingCycles--;
-                    if (_remainingCycles < 0) _remainingCycles = 0;
+
+                    for (int i = 0; i < _slotCount; i++)
+                        _currentSymbols[i] = (_currentSymbols[i] + 1) % _symbolCount;
+                    
                 }
             }
 

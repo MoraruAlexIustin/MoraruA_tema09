@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36414.22 d17.14
+VisualStudioVersion = 17.14.36414.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{B7DA1056-789B-4C4B-B200-D6B837ED528C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlotMachine", "ConsoleApp1\SlotMachine.csproj", "{B7DA1056-789B-4C4B-B200-D6B837ED528C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
