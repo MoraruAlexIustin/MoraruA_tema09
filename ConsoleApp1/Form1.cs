@@ -16,10 +16,11 @@ namespace ConsoleApp1
         // Animation/Timing
         private Timer _animationTimer;
         private int _remainingCycles = 0;
-        private float _timePerCycle = 0.5f; 
         private DateTime _lastUpdateTime;
         private float _rotationOffset = 0.0f; 
-        private float _SpinSpeed = 20.0f; 
+        private float _timePerCycle = 0.5f; 
+        private float _SpinSpeed = 20.0f;
+        private readonly float TIME_PER_SYMBOL = 0.5f;
 
         // OpenGL/Texture Handling
         private int[] _textures; // IDs pentru cele 4 texturi (simboluri)
@@ -186,7 +187,7 @@ namespace ConsoleApp1
             float deltaTime = (float)elapsed.TotalSeconds;
             _lastUpdateTime = DateTime.Now;
 
-            float deltaRotation = deltaTime / _timePerCycle;
+            float deltaRotation = (1.0f / _timePerCycle) * deltaTime;
 
             // Logica de Oprire
             if (_remainingCycles <= 0)
@@ -215,8 +216,9 @@ namespace ConsoleApp1
                     _remainingCycles--;
 
                     for (int i = 0; i < _slotCount; i++)
-                        _currentSymbols[i] = (_currentSymbols[i] + 1) % _symbolCount;
-                    
+                        //_currentSymbols[i] = (_currentSymbols[i] + 1) % _symbolCount;
+                        _currentSymbols[i] = _random.Next(_symbolCount);
+
                 }
             }
 
