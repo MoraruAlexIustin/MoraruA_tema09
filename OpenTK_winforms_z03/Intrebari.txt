@@ -1,0 +1,11 @@
+1. Utiliza?i pentru texturare imagini cu transparen?? ?i f?r?. Ce observa?i? 
+Imaginile fara transparenta acopera complet obiectul, fiind opace, iar imaginile cu transparenta pot avea zone prin care se vede fundalul.
+
+2. Ce formate de imagine pot fi aplicate în procesul de texturare în OpenGL? 
+OpenGL poate aplica texturi din orice format de imagine.
+
+3. Specifica?i ce se întâmpl? atunci când se modific? culoarea (prin manipularea canalelor RGB) obiectului texturat.
+Culoarea finala este rezultatul inmultirii canalelor RGB  a texturii cu cele ale obiectului.
+
+4. Ce deosebiri exist? între scena ce utilizeaz? obiecte texturate în modul iluminare activat, respectiv dezactivat?
+Scena neiluminata arata obiectele plate si fara umbre, la luminozitatea maxima, iar Scena iluminata face obiectele sa para volumetrice (3D), deoarece lumina creeaza umbre, zone intunecate si reflexii.
