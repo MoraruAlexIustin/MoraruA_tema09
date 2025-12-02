@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.36414.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlotMachine", "ConsoleApp1\SlotMachine.csproj", "{B7DA1056-789B-4C4B-B200-D6B837ED528C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenTK_winforms_z03", "..\..\..\..\..\UNIVERSITATE\An 3\EGC\Laborator\Laborator EGC 09 (2023-2024) - Texturare\OpenTK_lab10\OpenTK_winforms_z03\OpenTK_winforms_z03.csproj", "{540F1C1E-8718-463A-A881-8DD1B93891A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B7DA1056-789B-4C4B-B200-D6B837ED528C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7DA1056-789B-4C4B-B200-D6B837ED528C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7DA1056-789B-4C4B-B200-D6B837ED528C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{540F1C1E-8718-463A-A881-8DD1B93891A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{540F1C1E-8718-463A-A881-8DD1B93891A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{540F1C1E-8718-463A-A881-8DD1B93891A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{540F1C1E-8718-463A-A881-8DD1B93891A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
